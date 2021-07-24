@@ -24,7 +24,7 @@ body{
     cursor: pointer;
 }
 
-#navigation p{
+#navigation *{
     padding-inline: 15px;
 }
 
