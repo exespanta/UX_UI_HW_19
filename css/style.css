@@ -1,0 +1,150 @@
+body{
+    background-color: #F6F4F1;
+    margin: 0px;
+    padding-left: 278px;
+    padding-right: 278px;
+    font-family: 'Proxima Nova';
+    
+}
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hero h1{
+    font-size: 60px;
+    color: #427598;
+}
+
+#navigation{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navigation p{
+    padding-inline: 15px;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+#hero{
+    background-color: #F6F4F1;
+}
+
+#hero p{
+    line-height: 2.0;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    justify-content: space-around;
+}
+
+.herotext p {
+    padding: 15px 0px 15px 0px;
+}
+
+.herogrid {
+    display: grid;
+    background-color: #fbfbfb;
+    margin-left: -278px;
+    margin-right: -278px;
+    padding-top: 62px;
+    grid-row-gap: 50px;
+    padding-bottom: 150px;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "tools skills"
+    "nacoinfo nacomockup";
+}
+
+.tools{
+    padding-right: 35px;
+    padding-left: 278px;
+    padding-bottom: -200px;
+    text-align: center;
+}
+.skills{
+    text-align: center;
+    margin-right: 278px;
+}
+
+.toolslist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 278px;
+    padding-right: 35px;
+}
+
+.toolslist p1{
+    padding-bottom: 5px;
+}
+
+.skillslist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 278px;
+}
+
+.skillslist p1{
+    padding-bottom: 5px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 45px;
+}
+
+#footer h1 {
+    color: #427598;
+    font-size: 30px;
+}
+#contactme {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #427598;
+    font-size: 16px;
+    border: none;
+    padding: 14px 26px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Proxima Nova';
+}
+
+hr {
+    border-top: 2px solid;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright img {
+    margin-right: 5px;
+}
